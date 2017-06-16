@@ -27,6 +27,17 @@ def create_table(conn, create_table_sql):
     except exceptions as e:
         print(e)
 
+def delete_table(conn, delete_table_sql):
+    """ delete a table from the delete_table_sql statement
+    :param conn: Connection object
+    :param delete_table_sql: a DROP TABLE statement
+    :return:
+    """
+    try:
+        c = conn.cursor()
+        c.execute(delete_table_sql)
+    except exceptions as e:
+        print(e)
 
 def main():
     database = "C:\\sqlite\db\pythonsqlite.db"
@@ -56,7 +67,7 @@ def main():
                                         Tweet_ID INT NOT NULL,
                                         Tweet_Text TEXT NOT NULL,
                                         Topic VARCHAR(25),
-                                        DateTime INT NOT NULL,
+                                        DateTime TEXT NOT NULL,
                                         Bio_Location VARCHAR(25),
                                         Tweet_Location VARCHAR(25)
                                         ); """
@@ -97,9 +108,31 @@ def main():
                                         Buzzword VARCHAR(25)
                                         ); """
 
+    sql_delete_topics = """ DROP TABLE IF EXISTS topics; """
+    sql_delete_buzzwords = """ DROP TABLE IF EXISTS buzzwords; """
+    sql_delete_categories = """ DROP TABLE IF EXISTS categories; """
+    sql_delete_trends = """ DROP TABLE IF EXISTS trends; """
+    sql_delete_tweeted_by = """ DROP TABLE IF EXISTS tweeted_by; """
+    sql_delete_users = """ DROP TABLE IF EXISTS users; """
+    sql_delete_tweets = """ DROP TABLE IF EXISTS tweets; """
+    sql_delete_region = """ DROP TABLE IF EXISTS region; """
+    sql_delete_main = """ DROP TABLE IF EXISTS main; """
+
+
     # create a database connection
     conn = create_connection(database)
     if conn is not None:
+        # delete all tables first
+        delete_table(conn, sql_delete_topics)
+        delete_table(conn, sql_delete_buzzwords)
+        delete_table(conn, sql_delete_categories)
+        delete_table(conn, sql_delete_trends)
+        delete_table(conn, sql_delete_tweeted_by)
+        delete_table(conn, sql_delete_users)
+        delete_table(conn, sql_delete_tweets)
+        delete_table(conn, sql_delete_region)
+        delete_table(conn, sql_delete_main)
+
         # create table
         create_table(conn, sql_create_main_table)
         create_table(conn, sql_create_region_table)
