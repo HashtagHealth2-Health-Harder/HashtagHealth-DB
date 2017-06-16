@@ -1,4 +1,4 @@
-import exceptions
+import errno
 import sqlite3
 
 def create_connection(db_file):
@@ -10,8 +10,8 @@ def create_connection(db_file):
     try:
         conn = sqlite3.connect(db_file)
         return conn
-    except exceptions as e:
-        print(e)
+    except:
+        print("Could not create connection")
 
     return None
 
@@ -24,8 +24,8 @@ def create_table(conn, create_table_sql):
     try:
         c = conn.cursor()
         c.execute(create_table_sql)
-    except exceptions as e:
-        print(e)
+    except:
+        print("Could not create table")
 
 def delete_table(conn, delete_table_sql):
     """ delete a table from the delete_table_sql statement
@@ -36,8 +36,8 @@ def delete_table(conn, delete_table_sql):
     try:
         c = conn.cursor()
         c.execute(delete_table_sql)
-    except exceptions as e:
-        print(e)
+    except:
+        print("Could not delete table")
 
 def main():
     database = "C:\\sqlite\db\pythonsqlite.db"
