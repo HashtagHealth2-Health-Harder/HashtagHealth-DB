@@ -19,9 +19,15 @@ def populate_data(tweet):
     Bio_Location = tweet.user.location  # AKA Profile_location
     User_ID = tweet.user.id
     Twitter_Handle = tweet.user.screen_name
+    Exact_Location = tweet.coordinates
+    Country = tweet.place.country_code
+    City = tweet.place.name
+
     HashtagHealth_DB.insert_tweet_main(Tweet_ID, Location, DateTime, Bio_Location, Full_Tweet, Hashtags, Mentions)
     HashtagHealth_DB.insert_tweet_tweets(Tweet_ID, Full_Tweet, Topic, DateTime, Bio_Location, Location)
     HashtagHealth_DB.insert_tweet_users(User_ID, Twitter_Handle, Region)
+    HashtagHealth_DB.insert_tweet_region(Exact_Location, Country, Location, City)
+
 
 def main():
     # this data needs to go into the database

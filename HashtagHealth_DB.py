@@ -57,7 +57,7 @@ def insert_tweet_tweets(tweet_id, full_tweet, topic, datetime, bio_location, loc
     global conn
     c = conn.cursor()
     c.execute("INSERT INTO tweets VALUES (NULL, ?, ?, ?, ?, ?, ?)", (tweet_id, full_tweet, topic, datetime,
-                                                                    bio_location, location))
+                                                                     bio_location, location))
     conn.commit()
 
 
@@ -65,6 +65,13 @@ def insert_tweet_users(user_id, handle, region):
     global conn
     c = conn.cursor()
     c.execute("INSERT INTO users VALUES (NULL, ?, ?, ?)", (user_id, handle, region))
+    conn.commit()
+
+
+def insert_tweet_region(point, country, name, city):
+    global conn
+    c = conn.cursor()
+    c.execute("INSERT INTO region VALUES (NULL, ?, ?, ?, ?)", (point, country, name, city))
     conn.commit()
 
 
@@ -77,10 +84,10 @@ def main():
                             "Hashtags TEXT, Mentions TEXT, BuzzWords TEXT ); "
 
     sql_create_region_table = """ CREATE TABLE IF NOT EXISTS region (
-                                        id INTEGER PRIMARY KEY,
-                                        Locale INT NOT NULL,
-                                        Country VARCHAR(25),
-                                        State VARCHAR (10),
+                                        id INTEGER,
+                                        Locale INT,
+                                        Country VARCHAR(2),
+                                        Full_Name VARCHAR (30) PRIMARY KEY,
                                         City VARCHAR(25)
                                         ); """
 
@@ -111,7 +118,7 @@ def main():
                                         id INTEGER PRIMARY KEY,
                                         Trend_Topic VARCHAR(25),
                                         DateTime INT NOT NULL,
-                                        Region VARCHAR(25)
+                                        Region VARCHAR(30)
                                         ); """
 
     sql_create_categories_table = """ CREATE TABLE IF NOT EXISTS categories (
