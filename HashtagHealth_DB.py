@@ -1,5 +1,6 @@
-import exceptions
 import sqlite3
+conn = sqlite3.connect("C:\\sqlite\db\pythonsqlite.db")
+
 
 def create_connection(db_file):
     """ create a database connection to the SQLite database
@@ -8,12 +9,14 @@ def create_connection(db_file):
     :return: Connection object or None
     """
     try:
+        global conn
         conn = sqlite3.connect(db_file)
         return conn
-    except exceptions as e:
-        print(e)
+    except:
+        print("\ncannot create connection\n")
 
     return None
+
 
 def create_table(conn, create_table_sql):
     """ create a table from the create_table_sql statement
@@ -24,8 +27,9 @@ def create_table(conn, create_table_sql):
     try:
         c = conn.cursor()
         c.execute(create_table_sql)
-    except exceptions as e:
-        print(e)
+    except:
+        print("\ncannot create table\n")
+
 
 def delete_table(conn, delete_table_sql):
     """ delete a table from the delete_table_sql statement
@@ -36,23 +40,26 @@ def delete_table(conn, delete_table_sql):
     try:
         c = conn.cursor()
         c.execute(delete_table_sql)
-    except exceptions as e:
-        print(e)
+    except:
+        print("\ncannot delete table\n")
+
+
+def insert_tweet(tweet_id, location, datetime, profile_location, full_tweet, hashtags, mentions):
+    global conn
+    c = conn.cursor()
+    c.execute(" INSERT INTO main(Tweet_ID, Location, DateTime, Full_Tweet, Hashtags, "
+              "Mentions) VALUES (?, ?, ?, ?, ?, ?)", (tweet_id, location, datetime, full_tweet,
+                                                      str(hashtags), str(mentions)))
+    conn.commit()
+
 
 def main():
     database = "C:\\sqlite\db\pythonsqlite.db"
 
-    sql_create_main_table = """ CREATE TABLE IF NOT EXISTS main (
-                                        id INTEGER PRIMARY KEY,
-                                        Tweet_ID INT NOT NULL,
-                                        Location INT NOT NULL,
-                                        DateTime INT NOT NULL,
-                                        Profile_location INT,
-                                        Full_Tweet VARCHAR(400) NOT NULL,
-                                        Hashtags TEXT,
-                                        Mentions TEXT,
-                                        BuzzWords TEXT
-                                    ); """
+    sql_create_main_table = " CREATE TABLE IF NOT EXISTS main (id INTEGER PRIMARY KEY, Tweet_ID INT NOT NULL, " \
+                            "Location VARCHAR(25) NOT NULL,  DateTime DATETIME NOT NULL, " \
+                            "Profile_location VARCHAR(25), Full_Tweet VARCHAR(150) NOT NULL, " \
+                            "Hashtags TEXT, Mentions TEXT, BuzzWords TEXT ); "
 
     sql_create_region_table = """ CREATE TABLE IF NOT EXISTS region (
                                         id INTEGER PRIMARY KEY,
@@ -118,7 +125,6 @@ def main():
     sql_delete_region = """ DROP TABLE IF EXISTS region; """
     sql_delete_main = """ DROP TABLE IF EXISTS main; """
 
-
     # create a database connection
     conn = create_connection(database)
     if conn is not None:
@@ -146,8 +152,6 @@ def main():
 
     else:
         print("Error! cannot create the database connection.")
-
-
 
 if __name__ == '__main__':
     main()
