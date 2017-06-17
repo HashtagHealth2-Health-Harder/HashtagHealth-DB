@@ -44,12 +44,27 @@ def delete_table(conn, delete_table_sql):
         print("\ncannot delete table\n")
 
 
-def insert_tweet(tweet_id, location, datetime, profile_location, full_tweet, hashtags, mentions):
+def insert_tweet_main(tweet_id, location, datetime, profile_location, full_tweet, hashtags, mentions):
     global conn
     c = conn.cursor()
     c.execute(" INSERT INTO main(Tweet_ID, Location, DateTime, Full_Tweet, Hashtags, "
               "Mentions) VALUES (?, ?, ?, ?, ?, ?)", (tweet_id, location, datetime, full_tweet,
                                                       str(hashtags), str(mentions)))
+    conn.commit()
+
+
+def insert_tweet_tweets(tweet_id, full_tweet, topic, datetime, bio_location, location):
+    global conn
+    c = conn.cursor()
+    c.execute("INSERT INTO tweets VALUES (NULL, ?, ?, ?, ?, ?, ?)", (tweet_id, full_tweet, topic, datetime,
+                                                                    bio_location, location))
+    conn.commit()
+
+
+def insert_tweet_users(user_id, handle, region):
+    global conn
+    c = conn.cursor()
+    c.execute("INSERT INTO users VALUES (NULL, ?, ?, ?)", (user_id, handle, region))
     conn.commit()
 
 

@@ -7,23 +7,34 @@ def load_file(file_name):
     return tweets
 
 
+def populate_data(tweet):
+    Tweet_ID = tweet.id
+    Location = tweet.place.full_name  # AKA Tweet_Location
+    DateTime = tweet.created_at
+    Full_Tweet = tweet.extended_tweet["full_text"]
+    Hashtags = tweet.entities["hashtags"]
+    Mentions = tweet.entities["user_mentions"]
+    Topic = None  # not sure how to make this work yet
+    Region = None  # not sure how to make this work yet
+    Bio_Location = tweet.user.location  # AKA Profile_location
+    User_ID = tweet.user.id
+    Twitter_Handle = tweet.user.screen_name
+    HashtagHealth_DB.insert_tweet_main(Tweet_ID, Location, DateTime, Bio_Location, Full_Tweet, Hashtags, Mentions)
+    HashtagHealth_DB.insert_tweet_tweets(Tweet_ID, Full_Tweet, Topic, DateTime, Bio_Location, Location)
+    HashtagHealth_DB.insert_tweet_users(User_ID, Twitter_Handle, Region)
+
 def main():
     # this data needs to go into the database
     # we need it in main just in case
+        # ID, Location, DateTime, Full_Tweet, Hashtags, Mentions
     # we need it in tweets
+        # ID, Tweet_Text, Topic(foreign key), DateTime, Bio_Location, Tweet_Location
     # we need it in users
+        # User_ID, Twitter_Handle, Region(foreign key)
     # we need it in all related tables
+        # Region, Topics, Buzzwords, Categories, Tweeted_By, Trends
     tweets = load_file("2017-06-16_2004081497643448938.pickle")
-    #print(tweets.id)
-    #print(tweets.place.full_name)
-    #print(tweets.created_at)
-    #print(tweets.user.location)
-    #print(tweets.extended_tweet["full_text"])
-    #print(tweets.entities["hashtags"])
-    #print(tweets.entities["user_mentions"])
-    HashtagHealth_DB.insert_tweet(tweets.id, tweets.place.full_name, tweets.created_at, tweets.user.location,
-                                  tweets.extended_tweet["full_text"], tweets.entities["hashtags"],
-                                  tweets.entities["user_mentions"])
+    populate_data(tweets)
     print("Table created?")
 
 if __name__ == '__main__':
