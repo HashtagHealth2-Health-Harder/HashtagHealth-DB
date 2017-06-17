@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db64916-32ce-4c1a-9629-f675db69d7b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PopulateDatabase-Gabby.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HashtagHealth-DB_Create.sql" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/HashtagHealth-DB.py" afterPath="$PROJECT_DIR$/HashtagHealth_DB.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/C:\sqlite\db\pythonsqlite.db" afterPath="$PROJECT_DIR$/C:\sqlite\db\pythonsqlite.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HashtagHealth-DB.iml" afterPath="$PROJECT_DIR$/.idea/HashtagHealth-DB.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HashtagHealth_DB.py" afterPath="$PROJECT_DIR$/HashtagHealth_DB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PopulateDatabase-Gabby.py" afterPath="$PROJECT_DIR$/PopulateDatabase-Gabby.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +18,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/HashtagHealth_DB$HashtagHealth_DB.coverage" NAME="HashtagHealth-DB Coverage Results" MODIFIED="1497636830970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -28,55 +35,26 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="HashtagHealth-DB" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HashtagHealth_DB.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HashtagHealth_DB.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="108" column="46" lean-forward="true" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-                <element signature="e#5263#6210#0" expanded="false" />
-                <marker date="1497636830000" expanded="false" signature="1114:1739" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="1780:2160" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="2201:2685" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="true" signature="2201:2727" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="2201:2762" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="2767:3095" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="true" signature="3140:3287" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="3140:3408" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="3449:3777" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="3822:4028" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="4072:4277" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="false" signature="4318:4582" ph="CREATE TABLE... IF" />
-                <marker date="1497636830000" expanded="true" signature="4617:4644" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4681:4702" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4681:4711" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4749:4770" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4749:4780" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4814:4835" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4814:4841" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4843:4874" ph="&quot;&quot; sql_delet... " />
-                <marker date="1497636830000" expanded="true" signature="4879:4900" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4879:4910" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4943:4964" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="4943:4969" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="5003:5024" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="5003:5030" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="5064:5084" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="5064:5091" ph="DROP TABLE I... " />
-                <marker date="1497636830000" expanded="true" signature="5123:5148" ph="DROP TABLE I... " />
-              </folding>
+            <state vertical-scroll-proportion="-1.9580419">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PopulateDatabase-Gabby.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PopulateDatabase-Gabby.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PopulateDatabase-Gabby.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -102,6 +80,7 @@
         <option value="$PROJECT_DIR$/HashtagHealth-DB_Create.sql" />
         <option value="$PROJECT_DIR$/HashtagHealth-DB.py" />
         <option value="$PROJECT_DIR$/PopulateDatabase-Gabby.py" />
+        <option value="$PROJECT_DIR$/HashtagHealth_DB.py" />
       </list>
     </option>
   </component>
@@ -112,10 +91,19 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="122" />
-    <option name="y" value="41" />
-    <option name="width" value="1182" />
-    <option name="height" value="834" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -133,9 +121,14 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HashtagHealth-DB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="HashtagHealth-DB" />
@@ -148,6 +141,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,6 +149,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="SQLite" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HashtagHealth-DB">
+  <component name="RunManager" selected="Python.PopulateDatabase-Gabby">
     <configuration default="false" name="HashtagHealth-DB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,71 +181,47 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HashtagHealth_DB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+    <configuration default="false" name="Unittest main" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HashtagHealth-DB" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PopulateDatabase-Gabby.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PopulateDatabase-Gabby" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HashtagHealth-DB" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HashtagHealth-DB" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HashtagHealth-DB" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PopulateDatabase-Gabby.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -268,10 +240,9 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
+    <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -280,24 +251,14 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="HashtagHealth-DB" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -320,6 +281,27 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HashtagHealth-DB" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,23 +313,56 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HashtagHealth-DB" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HashtagHealth-DB" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.HashtagHealth-DB" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PopulateDatabase-Gabby" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.HashtagHealth-DB" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.PopulateDatabase-Gabby" />
+        <item index="1" class="java.lang.String" itemvalue="Python.HashtagHealth-DB" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6db64916-32ce-4c1a-9629-f675db69d7b0" name="Default" comment="" />
@@ -358,30 +373,35 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittest_main - 2017.06.17 at 11h 27m 48s.xml">
+      <configuration name="Unittest main" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="41" width="1182" height="834" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24957699" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5033841" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49661592" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32794118" sideWeight="0.49661592" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985294" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5033841" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,121 +412,68 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#5263#6210#0" expanded="false" />
-            <marker date="1497636830000" expanded="false" signature="1114:1739" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="1780:2160" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="2201:2685" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="true" signature="2201:2727" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="2201:2762" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="2767:3095" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="true" signature="3140:3287" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="3140:3408" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="3449:3777" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="3822:4028" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="4072:4277" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="4318:4582" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="true" signature="4617:4644" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4681:4702" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4681:4711" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4749:4770" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4749:4780" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4814:4835" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4814:4841" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4843:4874" ph="&quot;&quot; sql_delet... " />
-            <marker date="1497636830000" expanded="true" signature="4879:4900" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4879:4910" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4943:4964" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4943:4969" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5003:5024" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5003:5030" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5064:5084" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5064:5091" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5123:5148" ph="DROP TABLE I... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HashtagHealth-DB_Create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="108" column="46" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d141a0e4-37a8-4433-95ba-f5cb0f5ea3dc/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HashtagHealth-DB_Create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="108" column="46" lean-forward="true" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-            <element signature="e#5263#6210#0" expanded="false" />
-            <marker date="1497636830000" expanded="false" signature="1114:1739" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="1780:2160" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="2201:2685" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="true" signature="2201:2727" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="2201:2762" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="2767:3095" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="true" signature="3140:3287" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="3140:3408" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="3449:3777" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="3822:4028" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="4072:4277" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="false" signature="4318:4582" ph="CREATE TABLE... IF" />
-            <marker date="1497636830000" expanded="true" signature="4617:4644" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4681:4702" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4681:4711" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4749:4770" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4749:4780" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4814:4835" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4814:4841" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4843:4874" ph="&quot;&quot; sql_delet... " />
-            <marker date="1497636830000" expanded="true" signature="4879:4900" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4879:4910" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4943:4964" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="4943:4969" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5003:5024" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5003:5030" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5064:5084" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5064:5091" ph="DROP TABLE I... " />
-            <marker date="1497636830000" expanded="true" signature="5123:5148" ph="DROP TABLE I... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PopulateDatabase-Gabby.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="329" column="0" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017-06-16_2004081497643448938.pickle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PopulateDatabase-Gabby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9580419">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
