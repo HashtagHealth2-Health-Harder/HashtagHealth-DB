@@ -73,7 +73,6 @@ def insert_tweet_region(point, country, name, city):
     c.execute("INSERT INTO region VALUES (NULL, ?, ?, ?, ?)", (point, country, name, city))
     conn.commit()
 
->>>>>>> 601f741166cd64a76cad9bc457b281004c4f166f
 
 def main():
     database = "C:\\sqlite\db\pythonsqlite.db"
