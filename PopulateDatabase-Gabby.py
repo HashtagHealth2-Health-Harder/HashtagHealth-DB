@@ -1,25 +1,25 @@
 import HashtagHealth_DB
 import pickle
-
+import sys
+import os
 
 def load_file(file_name):
     tweets = pickle.load(open(file_name, 'rb'))
     return tweets
 
-
-def populate_data(tweet):
+def populate_data(tweet, topic):
     Tweet_ID = tweet.id
     Location = tweet.place.full_name  # AKA Tweet_Location
     DateTime = tweet.created_at
     Full_Tweet = tweet.extended_tweet["full_text"]
     Hashtags = tweet.entities["hashtags"]
     Mentions = tweet.entities["user_mentions"]
-    Topic = None  # not sure how to make this work yet
-    Region = None  # not sure how to make this work yet
+    Topic = topic  # not sure how to make this work yet
+    Region = str(tweet.place.bounding_box.coordinates)  # not sure how to make this work yet
     Bio_Location = tweet.user.location  # AKA Profile_location
     User_ID = tweet.user.id
     Twitter_Handle = tweet.user.screen_name
-    Exact_Location = tweet.coordinates
+    Exact_Location = tweet.coordinates.coordinates
     Country = tweet.place.country_code
     City = tweet.place.name
 
@@ -28,8 +28,7 @@ def populate_data(tweet):
     HashtagHealth_DB.insert_tweet_users(User_ID, Twitter_Handle, Region)
     HashtagHealth_DB.insert_tweet_region(Exact_Location, Country, Location, City)
 
-
-def main():
+def main(topic):
     # this data needs to go into the database
     # we need it in main just in case
         # ID, Location, DateTime, Full_Tweet, Hashtags, Mentions
@@ -39,9 +38,13 @@ def main():
         # User_ID, Twitter_Handle, Region(foreign key)
     # we need it in all related tables
         # Region, Topics, Buzzwords, Categories, Tweeted_By, Trends
-    tweets = load_file("2017-06-16_2004081497643448938.pickle")
-    populate_data(tweets)
+    files = [f for f in os.listdir('/{}'.format(topic)) if os.path.isfile(f)]
+    print(files)
+    for f in files
+        tweet = load_file(f)
+        populate_data(tweet, topic)
     print("Table created?")
 
 if __name__ == '__main__':
-    main()
+    # topic
+    main(sys.argv[1])
