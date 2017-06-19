@@ -1,3 +1,4 @@
+import errno
 import sqlite3
 conn = sqlite3.connect("C:\\sqlite\db\pythonsqlite.db")
 
@@ -14,7 +15,6 @@ def create_connection(db_file):
         return conn
     except:
         print("\ncannot create connection\n")
-
     return None
 
 
@@ -28,8 +28,7 @@ def create_table(conn, create_table_sql):
         c = conn.cursor()
         c.execute(create_table_sql)
     except:
-        print("\ncannot create table\n")
-
+        print("Could not create table")
 
 def delete_table(conn, delete_table_sql):
     """ delete a table from the delete_table_sql statement
@@ -41,7 +40,7 @@ def delete_table(conn, delete_table_sql):
         c = conn.cursor()
         c.execute(delete_table_sql)
     except:
-        print("\ncannot delete table\n")
+        print("Could not delete table")
 
 
 def insert_tweet_main(tweet_id, location, datetime, profile_location, full_tweet, hashtags, mentions):

@@ -12,11 +12,11 @@ def populate_data(tweet, topic):
     Location = tweet.place.full_name  # AKA Tweet_Location
     print(Location)
     DateTime = tweet.created_at
-    Full_Tweet = tweet.text
+    Full_Tweet = tweet.text # Gabby i dont like this it's shorter than the full text
     Hashtags = tweet.entities["hashtags"]
     Mentions = tweet.entities["user_mentions"]
-    Topic = topic  # not sure how to make this work yet
-    Region = str(tweet.place.bounding_box.coordinates)  # not sure how to make this work yet
+    Topic = topic  
+    Region = str(tweet.place.bounding_box.coordinates)  
     Bio_Location = tweet.user.location  # AKA Profile_location
     User_ID = tweet.user.id
     Twitter_Handle = tweet.user.screen_name
@@ -43,7 +43,6 @@ def main(topic):
     for f in files:
         tweet = load_file(f)
         populate_data(tweet, topic)
-    print("Table created?")
 
 if __name__ == '__main__':
     # topic
