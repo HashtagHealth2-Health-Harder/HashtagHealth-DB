@@ -83,10 +83,10 @@ def main():
                             "Hashtags TEXT, Mentions TEXT, BuzzWords TEXT ); "
 
     sql_create_region_table = """ CREATE TABLE IF NOT EXISTS region (
-                                        id INTEGER,
+                                        id INTEGER PRIMARY KEY,
                                         Locale INT,
                                         Country VARCHAR(2),
-                                        Full_Name VARCHAR (30) PRIMARY KEY,
+                                        Full_Name VARCHAR (30),
                                         City VARCHAR(25)
                                         ); """
 
