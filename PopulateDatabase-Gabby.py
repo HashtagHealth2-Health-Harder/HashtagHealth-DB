@@ -38,10 +38,8 @@ def main():
     # we need it in users
         # User_ID, Twitter_Handle, Region(foreign key)
     # we need it in all related tables
-        # Region, Topics, Buzzwords, Categories, Tweeted_By, Trends
     tweets = load_file("2017-06-16_2004081497643448938.pickle")
     populate_data(tweets)
-    print("Table created?")
 
 if __name__ == '__main__':
     main()
