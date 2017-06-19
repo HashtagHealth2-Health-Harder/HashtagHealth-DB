@@ -40,7 +40,6 @@ def main():
     # we need it in all related tables
     tweets = load_file("2017-06-16_2004081497643448938.pickle")
     populate_data(tweets)
-    print("Table created?")
 
 if __name__ == '__main__':
     main()
