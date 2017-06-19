@@ -3,15 +3,16 @@ import pickle
 import sys
 import os
 
-def load_file(file_name):
-    tweets = pickle.load(open(file_name, 'rb'))
+def load_file(topic, file_name):
+    tweets = pickle.load(open('../../data/{}/{}'.format(topic, file_name), 'rb'))
     return tweets
 
 def populate_data(tweet, topic):
     Tweet_ID = tweet.id
     Location = tweet.place.full_name  # AKA Tweet_Location
+    print(Location)
     DateTime = tweet.created_at
-    Full_Tweet = tweet.extended_tweet["full_text"]
+    Full_Tweet = tweet.text
     Hashtags = tweet.entities["hashtags"]
     Mentions = tweet.entities["user_mentions"]
     Topic = topic  # not sure how to make this work yet
@@ -39,12 +40,10 @@ def main(topic):
     # we need it in all related tables
         # Region, Topics, Buzzwords, Categories, Tweeted_By, Trends
     files = [f for f in os.listdir('../../data/{}'.format(topic)) if os.path.isfile(f)]
-    print(files)
-    print(len(files))
-    # for f in files
-    #     tweet = load_file(f)
-    #     populate_data(tweet, topic)
-    # print("Table created?")
+    for f in files:
+        tweet = load_file(f)
+        populate_data(tweet, topic)
+    print("Table created?")
 
 if __name__ == '__main__':
     # topic
