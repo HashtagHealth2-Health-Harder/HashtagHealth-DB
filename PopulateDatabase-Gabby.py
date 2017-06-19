@@ -38,12 +38,13 @@ def main(topic):
         # User_ID, Twitter_Handle, Region(foreign key)
     # we need it in all related tables
         # Region, Topics, Buzzwords, Categories, Tweeted_By, Trends
-    files = [f for f in os.listdir('/{}'.format(topic)) if os.path.isfile(f)]
+    files = [f for f in os.listdir('../../data/{}'.format(topic)) if os.path.isfile(f)]
     print(files)
-    for f in files
-        tweet = load_file(f)
-        populate_data(tweet, topic)
-    print("Table created?")
+    print(len(files))
+    # for f in files
+    #     tweet = load_file(f)
+    #     populate_data(tweet, topic)
+    # print("Table created?")
 
 if __name__ == '__main__':
     # topic
