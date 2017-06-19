@@ -1,5 +1,7 @@
 import errno
 import sqlite3
+conn = sqlite3.connect("C:\\sqlite\db\pythonsqlite.db")
+
 
 def create_connection(db_file):
     """ create a database connection to the SQLite database
@@ -8,12 +10,13 @@ def create_connection(db_file):
     :return: Connection object or None
     """
     try:
+        global conn
         conn = sqlite3.connect(db_file)
         return conn
     except:
-        print("Could not create connection")
-
+        print("\ncannot create connection\n")
     return None
+
 
 def create_table(conn, create_table_sql):
     """ create a table from the create_table_sql statement
@@ -39,26 +42,52 @@ def delete_table(conn, delete_table_sql):
     except:
         print("Could not delete table")
 
+
+def insert_tweet_main(tweet_id, location, datetime, profile_location, full_tweet, hashtags, mentions):
+    global conn
+    c = conn.cursor()
+    c.execute(" INSERT INTO main(Tweet_ID, Location, DateTime, Full_Tweet, Hashtags, "
+              "Mentions) VALUES (?, ?, ?, ?, ?, ?)", (tweet_id, location, datetime, full_tweet,
+                                                      str(hashtags), str(mentions)))
+    conn.commit()
+
+
+def insert_tweet_tweets(tweet_id, full_tweet, topic, datetime, bio_location, location):
+    global conn
+    c = conn.cursor()
+    c.execute("INSERT INTO tweets VALUES (NULL, ?, ?, ?, ?, ?, ?)", (tweet_id, full_tweet, topic, datetime,
+                                                                     bio_location, location))
+    conn.commit()
+
+
+def insert_tweet_users(user_id, handle, region):
+    global conn
+    c = conn.cursor()
+    c.execute("INSERT INTO users VALUES (NULL, ?, ?, ?)", (user_id, handle, region))
+    conn.commit()
+
+
+def insert_tweet_region(point, country, name, city):
+    global conn
+    c = conn.cursor()
+    c.execute("INSERT INTO region VALUES (NULL, ?, ?, ?, ?)", (point, country, name, city))
+    conn.commit()
+
+>>>>>>> 601f741166cd64a76cad9bc457b281004c4f166f
+
 def main():
     database = "C:\\sqlite\db\pythonsqlite.db"
 
-    sql_create_main_table = """ CREATE TABLE IF NOT EXISTS main (
-                                        id INTEGER PRIMARY KEY,
-                                        Tweet_ID INT NOT NULL,
-                                        Location INT NOT NULL,
-                                        DateTime INT NOT NULL,
-                                        Profile_location INT,
-                                        Full_Tweet VARCHAR(400) NOT NULL,
-                                        Hashtags TEXT,
-                                        Mentions TEXT,
-                                        BuzzWords TEXT
-                                    ); """
+    sql_create_main_table = " CREATE TABLE IF NOT EXISTS main (id INTEGER PRIMARY KEY, Tweet_ID INT NOT NULL, " \
+                            "Location VARCHAR(25) NOT NULL,  DateTime DATETIME NOT NULL, " \
+                            "Profile_location VARCHAR(25), Full_Tweet VARCHAR(150) NOT NULL, " \
+                            "Hashtags TEXT, Mentions TEXT, BuzzWords TEXT ); "
 
     sql_create_region_table = """ CREATE TABLE IF NOT EXISTS region (
-                                        id INTEGER PRIMARY KEY,
-                                        Locale INT NOT NULL,
-                                        Country VARCHAR(25),
-                                        State VARCHAR (10),
+                                        id INTEGER,
+                                        Locale INT,
+                                        Country VARCHAR(2),
+                                        Full_Name VARCHAR (30) PRIMARY KEY,
                                         City VARCHAR(25)
                                         ); """
 
@@ -89,7 +118,7 @@ def main():
                                         id INTEGER PRIMARY KEY,
                                         Trend_Topic VARCHAR(25),
                                         DateTime INT NOT NULL,
-                                        Region VARCHAR(25)
+                                        Region VARCHAR(30)
                                         ); """
 
     sql_create_categories_table = """ CREATE TABLE IF NOT EXISTS categories (
@@ -118,7 +147,6 @@ def main():
     sql_delete_region = """ DROP TABLE IF EXISTS region; """
     sql_delete_main = """ DROP TABLE IF EXISTS main; """
 
-
     # create a database connection
     conn = create_connection(database)
     if conn is not None:
@@ -146,8 +174,6 @@ def main():
 
     else:
         print("Error! cannot create the database connection.")
-
-
 
 if __name__ == '__main__':
     main()
