@@ -10,7 +10,6 @@ def load_file(topic, file_name):
 def populate_data(tweet, topic):
     Tweet_ID = tweet.id
     Location = tweet.place.full_name  # AKA Tweet_Location
-    print(Location)
     DateTime = tweet.created_at
     Full_Tweet = tweet.text # Gabby i dont like this it's shorter than the full text
     Hashtags = tweet.entities["hashtags"]
@@ -20,7 +19,7 @@ def populate_data(tweet, topic):
     Bio_Location = tweet.user.location  # AKA Profile_location
     User_ID = tweet.user.id
     Twitter_Handle = tweet.user.screen_name
-    Exact_Location = tweet.coordinates
+    Exact_Location = str(tweet.coordinates)
     Country = tweet.place.country_code
     City = tweet.place.name
 
