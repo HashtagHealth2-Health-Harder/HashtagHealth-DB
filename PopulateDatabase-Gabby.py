@@ -20,7 +20,7 @@ def populate_data(tweet, topic):
     Bio_Location = tweet.user.location  # AKA Profile_location
     User_ID = tweet.user.id
     Twitter_Handle = tweet.user.screen_name
-    Exact_Location = tweet.coordinates.coordinates
+    Exact_Location = tweet.coordinates
     Country = tweet.place.country_code
     City = tweet.place.name
 
@@ -39,9 +39,9 @@ def main(topic):
         # User_ID, Twitter_Handle, Region(foreign key)
     # we need it in all related tables
         # Region, Topics, Buzzwords, Categories, Tweeted_By, Trends
-    files = [f for f in os.listdir('../../data/{}'.format(topic)) if os.path.isfile(f)]
+    files = [f for f in os.listdir('../../data/{}'.format(topic))]
     for f in files:
-        tweet = load_file(f)
+        tweet = load_file(topic, f)
         populate_data(tweet, topic)
 
 if __name__ == '__main__':
