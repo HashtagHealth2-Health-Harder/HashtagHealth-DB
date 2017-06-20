@@ -73,6 +73,11 @@ def insert_tweet_region(point, country, name, city):
     c.execute("INSERT INTO region VALUES (NULL, ?, ?, ?, ?)", (point, country, name, city))
     conn.commit()
 
+def get_latest_tweet(): 
+    global conn
+    c = conn.cursor()
+    result = c.execute("SELECT * FROM main ORDER BY DateTime DESC LIMIT 5")
+    return result
 
 def main():
     database = "C:\\sqlite\db\pythonsqlite.db"
