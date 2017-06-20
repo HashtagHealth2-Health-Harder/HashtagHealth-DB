@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db64916-32ce-4c1a-9629-f675db69d7b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PopulateDatabase-Elias.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PopulateDatabase-Gabby.py" afterPath="$PROJECT_DIR$/PopulateDatabase-Gabby.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PopulateDatabase-Elias.py" afterPath="$PROJECT_DIR$/PopulateDatabase-Elias.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,32 +25,9 @@
       <file leaf-file-name="HashtagHealth_DB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="870">
               <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-              <folding>
-                <marker date="1497897175000" expanded="true" signature="1279:1400" ph="INSERT INTO main... " />
-                <marker date="1497897175000" expanded="true" signature="1692:1742" ph="INSERT INTO tweets... " />
-                <marker date="1497897175000" expanded="true" signature="2001:2041" ph="INSERT INTO users... " />
-                <marker date="1497897175000" expanded="true" signature="2197:2241" ph="INSERT INTO region... " />
-                <marker date="1497897175000" expanded="true" signature="2384:2733" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="2772:3146" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="3187:3713" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="3753:4081" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="4126:4394" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="4435:4763" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="4808:5014" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="5058:5263" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="5304:5568" ph="CREATE TABLE... IF" />
-                <marker date="1497897175000" expanded="true" signature="5603:5630" ph="DROP TABLE I... " />
-                <marker date="1497897175000" expanded="true" signature="5667:5697" ph="DROP TABLE I... " />
-                <marker date="1497897175000" expanded="true" signature="5735:5766" ph="DROP TABLE I... " />
-                <marker date="1497897175000" expanded="true" signature="5800:5827" ph="DROP TABLE I... " />
-                <marker date="1497897175000" expanded="true" signature="5865:5896" ph="DROP TABLE I... " />
-                <marker date="1497897175000" expanded="true" signature="5929:5955" ph="DROP TABLE I... " />
-                <marker date="1497897175000" expanded="true" signature="5989:6016" ph="DROP TABLE I... " />
-                <marker date="1497897175000" expanded="true" signature="6050:6077" ph="DROP TABLE I... " />
-                <marker date="1497897175000" expanded="true" signature="6109:6134" ph="DROP TABLE I... " />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +35,8 @@
       <file leaf-file-name="PopulateDatabase-Gabby.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PopulateDatabase-Gabby.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="609">
+              <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="20" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -72,8 +47,8 @@
       <file leaf-file-name="PopulateDatabase-Elias.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PopulateDatabase-Elias.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="645">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -131,6 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,8 +122,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,7 +485,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39738563" sideWeight="0.49492386" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39738563" sideWeight="0.49492386" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -538,32 +513,37 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PopulateDatabase-Gabby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PopulateDatabase-Elias.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <marker date="1497897175000" expanded="true" signature="1279:1400" ph="INSERT INTO main... " />
-            <marker date="1497897175000" expanded="true" signature="1692:1742" ph="INSERT INTO tweets... " />
-            <marker date="1497897175000" expanded="true" signature="2001:2041" ph="INSERT INTO users... " />
-            <marker date="1497897175000" expanded="true" signature="2197:2241" ph="INSERT INTO region... " />
-            <marker date="1497897175000" expanded="true" signature="2384:2733" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="2772:3146" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3187:3713" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3753:4081" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4126:4394" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4435:4763" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4808:5014" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5058:5263" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5304:5568" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5603:5630" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5667:5697" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5735:5766" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5800:5827" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5865:5896" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5929:5955" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5989:6016" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6050:6077" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6109:6134" ph="DROP TABLE I... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -581,30 +561,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <marker date="1497897175000" expanded="true" signature="1279:1400" ph="INSERT INTO main... " />
-            <marker date="1497897175000" expanded="true" signature="1692:1742" ph="INSERT INTO tweets... " />
-            <marker date="1497897175000" expanded="true" signature="2001:2041" ph="INSERT INTO users... " />
-            <marker date="1497897175000" expanded="true" signature="2197:2241" ph="INSERT INTO region... " />
-            <marker date="1497897175000" expanded="true" signature="2384:2733" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="2772:3146" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3187:3713" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3753:4081" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4126:4394" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4435:4763" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4808:5014" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5058:5263" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5304:5568" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5603:5630" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5667:5697" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5735:5766" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5800:5827" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5865:5896" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5929:5955" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5989:6016" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6050:6077" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6109:6134" ph="DROP TABLE I... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -622,30 +579,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1497897175000" expanded="true" signature="1279:1400" ph="INSERT INTO main... " />
-            <marker date="1497897175000" expanded="true" signature="1692:1742" ph="INSERT INTO tweets... " />
-            <marker date="1497897175000" expanded="true" signature="2001:2041" ph="INSERT INTO users... " />
-            <marker date="1497897175000" expanded="true" signature="2197:2241" ph="INSERT INTO region... " />
-            <marker date="1497897175000" expanded="true" signature="2384:2733" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="2772:3146" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3187:3713" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3753:4081" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4126:4394" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4435:4763" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4808:5014" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5058:5263" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5304:5568" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5603:5630" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5667:5697" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5735:5766" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5800:5827" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5865:5896" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5929:5955" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5989:6016" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6050:6077" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6109:6134" ph="DROP TABLE I... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -663,30 +597,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="108" column="46" lean-forward="false" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
-          <folding>
-            <marker date="1497897175000" expanded="true" signature="1279:1400" ph="INSERT INTO main... " />
-            <marker date="1497897175000" expanded="true" signature="1692:1742" ph="INSERT INTO tweets... " />
-            <marker date="1497897175000" expanded="true" signature="2001:2041" ph="INSERT INTO users... " />
-            <marker date="1497897175000" expanded="true" signature="2197:2241" ph="INSERT INTO region... " />
-            <marker date="1497897175000" expanded="true" signature="2384:2733" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="2772:3146" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3187:3713" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3753:4081" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4126:4394" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4435:4763" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4808:5014" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5058:5263" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5304:5568" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5603:5630" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5667:5697" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5735:5766" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5800:5827" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5865:5896" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5929:5955" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5989:6016" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6050:6077" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6109:6134" ph="DROP TABLE I... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -704,30 +615,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1497897175000" expanded="true" signature="1279:1400" ph="INSERT INTO main... " />
-            <marker date="1497897175000" expanded="true" signature="1692:1742" ph="INSERT INTO tweets... " />
-            <marker date="1497897175000" expanded="true" signature="2001:2041" ph="INSERT INTO users... " />
-            <marker date="1497897175000" expanded="true" signature="2197:2241" ph="INSERT INTO region... " />
-            <marker date="1497897175000" expanded="true" signature="2384:2733" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="2772:3146" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3187:3713" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3753:4081" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4126:4394" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4435:4763" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4808:5014" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5058:5263" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5304:5568" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5603:5630" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5667:5697" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5735:5766" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5800:5827" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5865:5896" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5929:5955" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5989:6016" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6050:6077" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6109:6134" ph="DROP TABLE I... " />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,53 +629,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HashtagHealth_DB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="870">
           <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          <folding>
-            <marker date="1497897175000" expanded="true" signature="1279:1400" ph="INSERT INTO main... " />
-            <marker date="1497897175000" expanded="true" signature="1692:1742" ph="INSERT INTO tweets... " />
-            <marker date="1497897175000" expanded="true" signature="2001:2041" ph="INSERT INTO users... " />
-            <marker date="1497897175000" expanded="true" signature="2197:2241" ph="INSERT INTO region... " />
-            <marker date="1497897175000" expanded="true" signature="2384:2733" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="2772:3146" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3187:3713" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="3753:4081" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4126:4394" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4435:4763" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="4808:5014" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5058:5263" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5304:5568" ph="CREATE TABLE... IF" />
-            <marker date="1497897175000" expanded="true" signature="5603:5630" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5667:5697" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5735:5766" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5800:5827" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5865:5896" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5929:5955" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="5989:6016" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6050:6077" ph="DROP TABLE I... " />
-            <marker date="1497897175000" expanded="true" signature="6109:6134" ph="DROP TABLE I... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tweepy/tweepy/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PopulateDatabase-Gabby.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tweepy/tweepy/utils.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -796,10 +644,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PopulateDatabase-Gabby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PopulateDatabase-Elias.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
